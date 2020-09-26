@@ -14,7 +14,7 @@
       integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="head">
@@ -54,28 +54,83 @@
               <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/portfolio.html">Products</a>
+              <a class="nav-link" href="./pages/all_products.html">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/reviews.html">Checkout</a>
+              <a class="nav-link" href="./pages/product.html"
+                >Example Product</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/about.html">Example Product</a>
+              <a class="nav-link" href="./pages/checkout.html">Checkout</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="content">
-      <p>This guy takes photos, like really good photos such as this one:</p>
-      <img class="img-fluid" src="./images/plane.jpeg" alt="fancy plane" />
-    </div>
+
+    <section class="hero-banner"></section>
+
+    <section class="feat-products">
+      <div class="feat-product">
+        <img
+          src="https://via.placeholder.com/300x300.png"
+          alt=""
+          class="feat-img"
+        />
+        <span class="feat-product__title">Product Title</span>
+        <span class="feat-product__price">$9.99</span>
+        <a href="pages/product.html" class="btn btn-dark feat-product__btn"
+          >View</a
+        >
+      </div>
+
+      <div class="feat-product">
+        <img
+          src="https://via.placeholder.com/300x300.png"
+          alt=""
+          class="feat-img"
+        />
+        <span class="feat-product__title">Product Title</span>
+        <span class="feat-product__price">$9.99</span>
+        <a href="pages/product.html" class="btn btn-dark feat-product__btn"
+          >View</a
+        >
+      </div>
+
+      <div class="feat-product">
+        <img
+          src="https://via.placeholder.com/300x300.png"
+          alt=""
+          class="feat-img"
+        />
+        <span class="feat-product__title">Product Title</span>
+        <span class="feat-product__price">$9.99</span>
+        <a href="pages/product.html" class="btn btn-dark feat-product__btn"
+          >View</a
+        >
+      </div>
+
+      <div class="feat-product">
+        <img
+          src="https://via.placeholder.com/300x300.png"
+          alt=""
+          class="feat-img"
+        />
+        <span class="feat-product__title">Product Title</span>
+        <span class="feat-product__price">$9.99</span>
+        <a href="pages/product.html" class="btn btn-dark feat-product__btn"
+          >View</a
+        >
+      </div>
+    </section>
+
     <div class="footer">
-      <a
-        href="https://github.com/BYU-CS-260-Winter-2020/lab-1-photography-website-Equartey"
+      <a href="https://github.com/Equartey/CS260/tree/master/store"
         >Github Repo</a
       >
     </div>
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
