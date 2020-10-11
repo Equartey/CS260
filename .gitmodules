@@ -1,3 +1,6 @@
 [submodule "Lab 1"]
 	path = Lab
 	url = https://github.com/BYU-CS-260-Winter-2020/lab-1-photography-website-Equartey
+[submodule "lab-2-weather-app-Equartey"]
+	path = lab-2-weather-app-Equartey
+	url = https://github.com/BYU-CS-260-Winter-2020/lab-2-weather-app-Equartey
