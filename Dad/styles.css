@@ -1,0 +1,104 @@
+html,
+body,
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a,
+a:visited,
+a:focus,
+a:active {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+}
+
+.fas {
+  height: 25px;
+  width: 25px;
+}
+
+.fas path {
+  fill: #fff;
+}
+
+.footer,
+.head {
+  background-color: #333;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 10px 10px 20px 0px rgba(204, 204, 204, 1);
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 33%;
+}
+
+.card h1 {
+  color: #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.card .btn {
+  margin-top: auto;
+}
+
+#content {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.repo:visited,
+.repo {
+  text-align: center;
+  color: #ccc;
+  font-size: 16px;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+}
