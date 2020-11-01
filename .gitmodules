@@ -7,3 +7,12 @@
 [submodule "learning-vue"]
 	path = learning-vue
 	url = https://github.com/BYU-CS-260/learning-vue.git
+[submodule "vue-xkcd-browser"]
+	path = vue-xkcd-browser
+	url = https://github.com/BYU-CS-260-Winter-2020/lab-3a-vue-xkcd-browser-Equartey
+[submodule "lab-2-grocery-store"]
+	path = lab-2-grocery-store
+	url = https://github.com/BYU-CS-260-Winter-2020/lab-3b-grocery-store-Equartey.git
+[submodule "lab-3-grocery-store"]
+	path = lab-3-grocery-store
+	url = https://github.com/BYU-CS-260-Winter-2020/lab-3b-grocery-store-Equartey.git

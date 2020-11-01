@@ -13,9 +13,13 @@ server {
 }
 ```
 
-sudo ln -s /etc/nginx/sites-available/dad.frozonecodes.com /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/lab3b.frozonecodes.com /etc/nginx/sites-enabled/
 
-sudo mkdir /var/www/dad.frozonecodes.com
-sudo chown equartey /var/www/dad.frozonecodes.com
+sudo mkdir /var/www/lab3b.frozonecodes.com
+sudo chown equartey /var/www/lab3b.frozonecodes.com
+
+cd /var/www/lab3.frozonecodes.com
+
+## clone git repo
 
 sudo service nginx reload
