@@ -24,4 +24,10 @@ cd /var/www/lab3.frozonecodes.com
 
 sudo service nginx reload
 
-cp -rp dist/\* /var/www/creative3.frozonecodes.com
+cd ~/CS260
+
+git pull
+
+cd creative3/
+
+npm install && npm run build && cp -rp dist/\* /var/www/creative3.frozonecodes.com
