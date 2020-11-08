@@ -2,7 +2,7 @@
   <div class="container">
     <div class="recipe card ">
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 mb-4">
           <h1 class="text-left">{{ recipe.name }}</h1>
 
           <div class="img">

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="card">
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 mb-4">
             <h1 class="text-left">Meet the Chef</h1>
             <div class="img-wrap">
               <img class="img-fluid" src="../assets/fabo2.jpg" />

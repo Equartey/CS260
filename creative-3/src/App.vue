@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="navbar-nav">
-        <router-link class="nav-link" to="/">Home</router-link>
+      <div class="navbar-nav flex-row">
+        <router-link class="nav-link mr-4" to="/">Home</router-link>
         <router-link class="nav-link" to="/about">About</router-link>
       </div>
     </nav>
@@ -11,7 +11,7 @@
       href="https://github.com/Equartey/CS260/tree/master/creative-3"
       class="repo text-muted"
       target="_blank"
-      >https://github.com/Equartey/CS260/tree/master/creative-3</a
+      >GitHub</a
     >
   </div>
 </template>
@@ -48,9 +48,14 @@
   text-align: center;
   font-size: 16px;
   position: absolute;
-  bottom: 15px;
-  left: 0;
-  right: 0;
+  bottom: 5px;
   margin: auto;
+  word-break: break-all;
+  left: 20px;
+  right: 20px;
+}
+
+h1 {
+  font-size: 2.25rem;
 }
 </style>

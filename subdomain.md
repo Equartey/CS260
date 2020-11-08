@@ -13,13 +13,15 @@ server {
 }
 ```
 
-sudo ln -s /etc/nginx/sites-available/lab3b.frozonecodes.com /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/creative3.frozonecodes.com /etc/nginx/sites-enabled/
 
-sudo mkdir /var/www/lab3b.frozonecodes.com
-sudo chown equartey /var/www/lab3b.frozonecodes.com
+sudo mkdir /var/www/creative3.frozonecodes.com
+sudo chown equartey /var/www/creative3.frozonecodes.com
 
 cd /var/www/lab3.frozonecodes.com
 
 ## clone git repo
 
 sudo service nginx reload
+
+cp -rp dist/\* /var/www/creative3.frozonecodes.com
