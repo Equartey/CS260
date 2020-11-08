@@ -8,10 +8,10 @@
     </nav>
     <router-view />
     <a
-      href="https://github.com/Equartey/CS260"
+      href="https://github.com/Equartey/CS260/tree/master/creative-3"
       class="repo text-muted"
       target="_blank"
-      >https://github.com/Equartey/CS260</a
+      >https://github.com/Equartey/CS260/tree/master/creative-3</a
     >
   </div>
 </template>
